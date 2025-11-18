@@ -1,0 +1,482 @@
+[
+    {
+        "_id": "66399a6857184314658edfef",
+        "origin_city": "Cleveland, Ohio",
+        "destination_city": "Kansas City, Missouri",
+        "trip_distance_miles": 9.42,
+        "fare_amount_usd": 26.09,
+        "trip_time": "2024-03-14",
+        "payment_method": "credit_card",
+        "weather_conditions": "Rainy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 4,
+        "trip_rating": 3,
+        "driver": {
+            "name": "Audrey Sellers",
+            "id": "46e4fe43-68f4-4c94-9c0d-54db29881210",
+            "rating": 3.2
+        },
+        "car": {
+            "make": "Nissan",
+            "model": "Camry",
+            "year": 2020,
+            "license_plate": "E16 0UL"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff0",
+        "origin_city": "Detroit, Michigan",
+        "destination_city": "Milwaukee, Wisconsin",
+        "trip_distance_miles": 28.79,
+        "fare_amount_usd": 105.89,
+        "trip_time": "2024-04-27",
+        "payment_method": "cash",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 2,
+        "trip_rating": 2,
+        "driver": {
+            "name": "Kimberly Kim",
+            "id": "b856867c-ff8b-4304-bb12-8df52522f8aa",
+            "rating": 2.3
+        },
+        "car": {
+            "make": "Chevrolet",
+            "model": "Malibu",
+            "year": 2019,
+            "license_plate": "FRG 400"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff1",
+        "origin_city": "Milwaukee, Wisconsin",
+        "destination_city": "Cleveland, Ohio",
+        "trip_distance_miles": 24.53,
+        "fare_amount_usd": 69.39,
+        "trip_time": "2024-03-19",
+        "payment_method": "credit_card",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Light",
+        "passenger_count": 4,
+        "trip_rating": 5,
+        "driver": {
+            "name": "Christina Howe",
+            "id": "be633ace-8cde-4169-9b6e-534fd05abf51",
+            "rating": 5.0
+        },
+        "car": {
+            "make": "Chevrolet",
+            "model": "Accord",
+            "year": 2020,
+            "license_plate": "297 BZU"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff2",
+        "origin_city": "St. Louis, Missouri",
+        "destination_city": "St. Louis, Missouri",
+        "trip_distance_miles": 21.65,
+        "fare_amount_usd": 101.73,
+        "trip_time": "2024-04-08",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 2,
+        "trip_rating": 2,
+        "driver": {
+            "name": "Deborah Fox",
+            "id": "7e69117d-cbb3-406a-bc3a-13e5d0f59bb7",
+            "rating": 4.7
+        },
+        "car": {
+            "make": "Honda",
+            "model": "Altima",
+            "year": 2022,
+            "license_plate": "15A Y54"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff3",
+        "origin_city": "Omaha, Nebraska",
+        "destination_city": "Omaha, Nebraska",
+        "trip_distance_miles": 25.81,
+        "fare_amount_usd": 67.51,
+        "trip_time": "2024-01-01",
+        "payment_method": "credit_card",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 2,
+        "trip_rating": 1,
+        "driver": {
+            "name": "Christopher Ross",
+            "id": "0ea7980a-c7e0-4af0-ab96-352fef2917ef",
+            "rating": 2.8
+        },
+        "car": {
+            "make": "Chevrolet",
+            "model": "Altima",
+            "year": 2015,
+            "license_plate": "374 LUP"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff4",
+        "origin_city": "Indianapolis, Indiana",
+        "destination_city": "Cleveland, Ohio",
+        "trip_distance_miles": 30.28,
+        "fare_amount_usd": 146.24,
+        "trip_time": "2024-04-19",
+        "payment_method": "credit_card",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Light",
+        "passenger_count": 4,
+        "trip_rating": 2,
+        "driver": {
+            "name": "Claudia Raymond",
+            "id": "0d7d5a02-3c67-4ab4-be31-3f4f0817d00a",
+            "rating": 4.2
+        },
+        "car": {
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2022,
+            "license_plate": "37A 5233"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff5",
+        "origin_city": "Cincinnati, Ohio",
+        "destination_city": "Indianapolis, Indiana",
+        "trip_distance_miles": 12.86,
+        "fare_amount_usd": 28.44,
+        "trip_time": "2024-01-03",
+        "payment_method": "cash",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 1,
+        "trip_rating": 4,
+        "driver": {
+            "name": "Ronald Peters",
+            "id": "434c05ad-c459-4fa9-bb44-51b421b140dc",
+            "rating": 3.4
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Camry",
+            "year": 2022,
+            "license_plate": "WY3 1786"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff6",
+        "origin_city": "Milwaukee, Wisconsin",
+        "destination_city": "Cincinnati, Ohio",
+        "trip_distance_miles": 27.4,
+        "fare_amount_usd": 113.14,
+        "trip_time": "2024-01-20",
+        "payment_method": "cash",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Light",
+        "passenger_count": 3,
+        "trip_rating": 5,
+        "driver": {
+            "name": "Andrew Kelly",
+            "id": "18aa8e7c-f77f-4826-9024-425b5824ac04",
+            "rating": 3.0
+        },
+        "car": {
+            "make": "Honda",
+            "model": "Altima",
+            "year": 2022,
+            "license_plate": "XZY1202"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff7",
+        "origin_city": "Cleveland, Ohio",
+        "destination_city": "Kansas City, Missouri",
+        "trip_distance_miles": 44.6,
+        "fare_amount_usd": 221.41,
+        "trip_time": "2024-02-16",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 4,
+        "trip_rating": 3,
+        "driver": {
+            "name": "Mark West",
+            "id": "2f4531e9-0b1a-4060-aef6-4f4e08953e66",
+            "rating": 1.8
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Fusion",
+            "year": 2019,
+            "license_plate": "DCX-1570"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff8",
+        "origin_city": "Milwaukee, Wisconsin",
+        "destination_city": "Kansas City, Missouri",
+        "trip_distance_miles": 32.5,
+        "fare_amount_usd": 104.37,
+        "trip_time": "2024-03-04",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Clear",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 2,
+        "trip_rating": 5,
+        "driver": {
+            "name": "James Torres",
+            "id": "9f337347-e2fb-4adf-83b8-9221922849a2",
+            "rating": 2.7
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Altima",
+            "year": 2018,
+            "license_plate": "17C 412"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edff9",
+        "origin_city": "Cleveland, Ohio",
+        "destination_city": "Detroit, Michigan",
+        "trip_distance_miles": 42.58,
+        "fare_amount_usd": 154.29,
+        "trip_time": "2024-04-30",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Rainy",
+        "traffic_conditions": "Light",
+        "passenger_count": 2,
+        "trip_rating": 3,
+        "driver": {
+            "name": "Noah Johnson",
+            "id": "a9f43bd5-ad42-40ab-85fe-d79069be28a1",
+            "rating": 2.8
+        },
+        "car": {
+            "make": "Honda",
+            "model": "Malibu",
+            "year": 2017,
+            "license_plate": "6550 WA"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edffa",
+        "origin_city": "Cincinnati, Ohio",
+        "destination_city": "Cincinnati, Ohio",
+        "trip_distance_miles": 5.35,
+        "fare_amount_usd": 26.67,
+        "trip_time": "2024-03-25",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Light",
+        "passenger_count": 4,
+        "trip_rating": 3,
+        "driver": {
+            "name": "Carla Evans",
+            "id": "7e5e9f47-f0d0-4773-a3ff-97822e5d4397",
+            "rating": 3.1
+        },
+        "car": {
+            "make": "Nissan",
+            "model": "Accord",
+            "year": 2019,
+            "license_plate": "2RGL 52"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edffb",
+        "origin_city": "Omaha, Nebraska",
+        "destination_city": "Cleveland, Ohio",
+        "trip_distance_miles": 11.34,
+        "fare_amount_usd": 48.84,
+        "trip_time": "2024-04-02",
+        "payment_method": "credit_card",
+        "weather_conditions": "Clear",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 2,
+        "trip_rating": 5,
+        "driver": {
+            "name": "Paula Carter",
+            "id": "93d901dc-12c1-428a-960c-e0bef63aa3ac",
+            "rating": 4.7
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Fusion",
+            "year": 2022,
+            "license_plate": "059 GUC"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edffc",
+        "origin_city": "Cleveland, Ohio",
+        "destination_city": "Milwaukee, Wisconsin",
+        "trip_distance_miles": 23.98,
+        "fare_amount_usd": 87.84,
+        "trip_time": "2024-02-28",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Clear",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 1,
+        "trip_rating": 1,
+        "driver": {
+            "name": "Joseph Marquez",
+            "id": "f88205ed-dbdd-4dca-b56b-49d056a6ecb2",
+            "rating": 1.4
+        },
+        "car": {
+            "make": "Chevrolet",
+            "model": "Accord",
+            "year": 2016,
+            "license_plate": "46G PK1"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edffd",
+        "origin_city": "Omaha, Nebraska",
+        "destination_city": "Kansas City, Missouri",
+        "trip_distance_miles": 46.08,
+        "fare_amount_usd": 147.01,
+        "trip_time": "2024-02-13",
+        "payment_method": "credit_card",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 4,
+        "trip_rating": 4,
+        "driver": {
+            "name": "Jessica Hale",
+            "id": "9aed6775-13be-4133-acdb-d958b762dda1",
+            "rating": 1.7
+        },
+        "car": {
+            "make": "Nissan",
+            "model": "Camry",
+            "year": 2018,
+            "license_plate": "5U 5972X"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edffe",
+        "origin_city": "Cincinnati, Ohio",
+        "destination_city": "Indianapolis, Indiana",
+        "trip_distance_miles": 40.44,
+        "fare_amount_usd": 184.54,
+        "trip_time": "2024-02-06",
+        "payment_method": "cash",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Light",
+        "passenger_count": 4,
+        "trip_rating": 3,
+        "driver": {
+            "name": "Kurt Harrington",
+            "id": "6dc7ec5d-2a5e-4ae3-b3a9-6138daf2a604",
+            "rating": 3.2
+        },
+        "car": {
+            "make": "Toyota",
+            "model": "Camry",
+            "year": 2019,
+            "license_plate": "246 DWJ"
+        }
+    },
+    {
+        "_id": "66399a6857184314658edfff",
+        "origin_city": "Detroit, Michigan",
+        "destination_city": "Cleveland, Ohio",
+        "trip_distance_miles": 30.17,
+        "fare_amount_usd": 73.48,
+        "trip_time": "2024-04-23",
+        "payment_method": "cash",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Heavy",
+        "passenger_count": 4,
+        "trip_rating": 4,
+        "driver": {
+            "name": "Nathaniel Boyd",
+            "id": "8d11a228-8145-4cf2-941b-f1ba2c98c85b",
+            "rating": 1.2
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Malibu",
+            "year": 2022,
+            "license_plate": "DNV-4363"
+        }
+    },
+    {
+        "_id": "66399a6857184314658ee000",
+        "origin_city": "Minneapolis, Minnesota",
+        "destination_city": "Milwaukee, Wisconsin",
+        "trip_distance_miles": 13.5,
+        "fare_amount_usd": 45.67,
+        "trip_time": "2024-05-05",
+        "payment_method": "credit_card",
+        "weather_conditions": "Snowy",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 1,
+        "trip_rating": 1,
+        "driver": {
+            "name": "Stephanie Williams",
+            "id": "9c4824e4-34f0-4784-b8b6-37b27a34d4b7",
+            "rating": 3.3
+        },
+        "car": {
+            "make": "Honda",
+            "model": "Camry",
+            "year": 2017,
+            "license_plate": "9GO 893"
+        }
+    },
+    {
+        "_id": "66399a6857184314658ee001",
+        "origin_city": "Omaha, Nebraska",
+        "destination_city": "Cincinnati, Ohio",
+        "trip_distance_miles": 31.13,
+        "fare_amount_usd": 106.38,
+        "trip_time": "2024-01-22",
+        "payment_method": "credit_card",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 2,
+        "trip_rating": 5,
+        "driver": {
+            "name": "Michael Simmons",
+            "id": "7593dfa4-48a0-4ac5-a979-0895433d39ca",
+            "rating": 4.5
+        },
+        "car": {
+            "make": "Nissan",
+            "model": "Accord",
+            "year": 2023,
+            "license_plate": "DMS-5455"
+        }
+    },
+    {
+        "_id": "66399a6857184314658ee002",
+        "origin_city": "Omaha, Nebraska",
+        "destination_city": "Omaha, Nebraska",
+        "trip_distance_miles": 37.93,
+        "fare_amount_usd": 160.11,
+        "trip_time": "2024-02-05",
+        "payment_method": "mobile_payment",
+        "weather_conditions": "Cloudy",
+        "traffic_conditions": "Moderate",
+        "passenger_count": 4,
+        "trip_rating": 2,
+        "driver": {
+            "name": "Mary Estrada",
+            "id": "72a5e7ee-e9f4-41d6-b587-1032d7ba83c0",
+            "rating": 3.0
+        },
+        "car": {
+            "make": "Ford",
+            "model": "Fusion",
+            "year": 2021,
+            "license_plate": "826M"
+        }
+    }
+]

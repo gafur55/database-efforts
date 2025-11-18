@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 HelveticaNeue;
+}
+{\colortbl;\red255\green255\blue255;\red239\green239\blue239;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c94902\c94902\c94902;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs34\fsmilli17100 \cf0 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \cb2 1. Display employees -by full name and email- with salaries between 80,000 (included) and 100,000 (excluded).\
+\
+\
+db.Employees.find(\
+	\{  $and: [ \
+			\{Salary:\{$gte:80000\}\},\
+			\cb2 \{Salary:\{$lte:100000\}\}\cb2 \
+                      ]\
+         \},\
+	\{    FullName:1, Email:1, _id:0 \}\
+)\
+\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \cb2 2. Display employees -by id, address, and salary- who are from Indiana or Illinois, order the results by salary\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs32 \cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs34\fsmilli17100 \cf0 \cb2 db.Employees.find(\
+	\{  $or: [ \
+			\{\'93Address.state\'94: \{$eq: \'93Indiana\'94\}\},\
+			\{\'93Address.state\'94: \{$eq: \'93Illinois\'94\}\}\
+                    ]\
+         \},\
+	\{    Address:1, \
+		Salary:1\
+	\}\
+).sort(\{ Salary: 1 \})
+\f2\fs32 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs34\fsmilli17100 \cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \cb2 3.Display employees who have both \'93Python\'94 and \'93MongoDB\'94 in their skill sets.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs32 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs34\fsmilli17100 \cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \cb2 db.Employees.find(\
+	\{  $and: [ \
+			\{skills:\{$eq:"Python"\}\},\
+			\{skills:\{$eq:"MongoDB"\}\}\
+                      ]\
+         \}\
+)
+\f0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf0 \cb2 4.Display employees who started to work in the \'93Frontend\'94 project in 2022\
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb2 db.Employees.find(\
+	\{  $and: [ \
+			\{Project:\{$eq:\'94Frontend\'94\}\},\
+			\{StartDate.year:\{$eq:2022\}\}\
+                      ]\
+         \}\
+)\cb2 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\
+}
